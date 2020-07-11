@@ -1,1 +1,62 @@
+body {
+    font-family: Georgia;
+}
+
+h1, h2, li {
+    text-align: center;
+    color: #555;
+}
+
+a {
+    color: green;
+}
+
+p {
+    background: white;
+    color: black;
+    padding: 10px 0px;
+}
+
+.nav {
+    border: 1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.home-img {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 25px;
+} 
+
+.button {
+    position: fixed;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100px; /* width of button */
+    height: 30px; /* height of button */
+}
 
